@@ -1,0 +1,25 @@
+{
+  "name": "the-chatters-hub",
+  "version": "1.0.0",
+  "description": "The Chatters Hub - Private, modern social messaging with User IDs only and no personal credentials required",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "whatsapp",
+    "instagram",
+    "socketio",
+    "privacy"
+  ],
+  "author": "Student Developer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.5"
+  }
+}
